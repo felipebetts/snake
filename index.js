@@ -9,7 +9,7 @@ function novoElemento(tagName, className) {
 }
 
 function colisao(A, B) {   // retornar true ou false !!
-    const a = A.getBoundingClientRect() // essa funcao retorna o retangulo associado ao elemento A, (formato do elemento)
+    const a = A.getBoundingClientRect() // essa funcao retorna o retangulo associado ao elemento A, (formato do elemento)   
     const b = B.getBoundingClientRect()
     
     const horizontal = a.left + a.width - 1 > b.left && b.left + b.width > a.left
