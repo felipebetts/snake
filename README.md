@@ -1,3 +1,5 @@
+# SNAKE
+
 This is a version of the classic snake arcade game, that many of us had in our phones back when they weren't smart.
 
 This version was created with pure HTML CSS and JavaScript, without any frameworks.
